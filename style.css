@@ -1,0 +1,111 @@
+
+
+body {
+    color:white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16pt;
+}
+
+.header {
+    text-align: center;
+    background: green;
+    color: white;
+    font-size: 20px;
+    font-family: Courier New, monospace;
+    display: block;
+    position: absolute;
+    width: 100%;
+    min-width: 100%;
+    height: 50px;
+    left: 0;
+    top: 0;
+    margin: 0;
+  }
+
+  .footer {
+    text-align: center;
+    background: green;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+  margin-top: -80px;
+  }
+  .content {
+    background-color: blue;
+    box-sizing: content-box;
+    margin: auto;
+    height:850px;
+    width: 650px; 
+    padding: 20px; 
+    word-spacing:0px;
+    padding-bottom: 90px;
+    min-height: 100%;
+
+  }
+  
+  .square {
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border: 5px solid white;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
+
+}
+
+ul li:nth-child(2) 
+{color:aqua;
+  font-size: 20px;
+  margin: 5px;
+  letter-spacing: 5px;
+}
+
+p {
+margin: 15px;
+}
+.www
+{
+    text-align: center;
+  }
+
+  .content h1
+  {
+    word-spacing: 5px;
+  }
+
+  #upleft { 
+    width:500px; 
+    height: 600px; 
+    background:white; 
+    float:left; 
+ }
+ 
+ #upright { 
+    width:500px; 
+    height:600px; 
+    background:white; 
+    float:right;
+ }
+
+
+td 
+{
+  padding: 5px;
+}
+
+table {
+  width: 150px;
+  border: 1px solid grey;
+}
+/* границы ячеек первого ряда таблицы */
+th {
+  border: 1px solid grey;
+}
+/* границы ячеек тела таблицы */
+td {
+  border: 1px solid grey;
+}
